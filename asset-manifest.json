@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/melk-heart/static/css/main.073c9b0a.css",
+    "main.js": "/melk-heart/static/js/main.87bdbf1b.js",
+    "static/js/787.727c5780.chunk.js": "/melk-heart/static/js/787.727c5780.chunk.js",
+    "static/media/logo.svg": "/melk-heart/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/melk-heart/index.html",
+    "main.073c9b0a.css.map": "/melk-heart/static/css/main.073c9b0a.css.map",
+    "main.87bdbf1b.js.map": "/melk-heart/static/js/main.87bdbf1b.js.map",
+    "787.727c5780.chunk.js.map": "/melk-heart/static/js/787.727c5780.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.87bdbf1b.js"
+  ]
+}
