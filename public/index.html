@@ -24,11 +24,30 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link href="%PUBLIC_URL%/css/index.css" rel="stylesheet">
+    <title>&#9829; Q</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+
+
+        <div class="container2">
+          <div class="content">
+            <canvas id="universe"></canvas>
+          </div>
+        </div>
+        <div class="title">
+          <h3 class="STARDUST1">From 2015 with Love</h3>
+          <h1 class="STARDUST2">Melk <strong>❤</strong> 幽昙</h1>
+          <h3 class="STARDUST3">Yêu Quỳnh ^^</h3>
+          <img class="img" src="%PUBLIC_URL%/images/41a9918513bab13320abc80835c0e8bf.JPG" alt="Q"/>
+          <canvas id="pinkboard"></canvas>
+        </div>
+    <div id="main">
+    </div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +58,9 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/js/main.js"></script>
+    <script src="%PUBLIC_URL%/js/particle.js"></script>
+    <script src="%PUBLIC_URL%/js/universe.js"></script>
   </body>
 </html>
